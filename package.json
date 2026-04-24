@@ -7,7 +7,14 @@
   "scripts": {
     "inspect": "node ./src/inspect-resume.mjs",
     "ingest": "node ./src/ingest-resume.mjs",
-    "ask": "node ./src/ask-resume.mjs"
+    "ask": "node ./src/ask-resume-7-progressive-ask.mjs",
+    "ask:v1": "node ./src/ask-resume.mjs",
+    "ask:v2": "node ./src/ask-resume-2-perf-ask.mjs",
+    "ask:v3": "node ./src/ask-resume-3-pipeline-ask.mjs",
+    "ask:v4": "node ./src/ask-resume-4-session-ask.mjs",
+    "ask:v5": "node ./src/ask-resume-5-config-ask.mjs",
+    "ask:v6": "node ./src/ask-resume-6-evidence-ask.mjs",
+    "ask:v7": "node ./src/ask-resume-7-progressive-ask.mjs"
   },
   "dependencies": {
     "@langchain/core": "^1.1.41",

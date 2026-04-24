@@ -1,0 +1,46 @@
+{
+  "experience": {
+    "minFinalCount": 6,
+    "maxPrimaryCount": 4,
+    "maxPreferredSupportCount": 2,
+    "maxCrossSectionSupportCount": 1,
+    "crossSectionSupportSections": ["skills"],
+    "crossSectionSupportMinRawScore": 0.62,
+    "crossSectionSupportMinRerankScore": 0.62,
+    "crossSectionSupportMinHintCount": 1,
+    "reserveMinRerankScore": 0.6
+  },
+  "project": {
+    "minFinalCount": 6,
+    "maxPrimaryCount": 4,
+    "maxPreferredSupportCount": 2,
+    "maxCrossSectionSupportCount": 1,
+    "crossSectionSupportSections": ["skills", "core_strengths"],
+    "crossSectionSupportMinRawScore": 0.6,
+    "crossSectionSupportMinRerankScore": 0.66,
+    "crossSectionSupportMinHintCount": 1,
+    "reserveMinRerankScore": 0.58
+  },
+  "skill": {
+    "minFinalCount": 6,
+    "maxPrimaryCount": 4,
+    "maxPreferredSupportCount": 2,
+    "maxCrossSectionSupportCount": 1,
+    "crossSectionSupportSections": ["projects", "work_experience"],
+    "crossSectionSupportMinRawScore": 0.56,
+    "crossSectionSupportMinRerankScore": 0.6,
+    "crossSectionSupportMinHintCount": 1,
+    "reserveMinRerankScore": 0.55
+  },
+  "general": {
+    "minFinalCount": 5,
+    "maxPrimaryCount": 4,
+    "maxPreferredSupportCount": 2,
+    "maxCrossSectionSupportCount": 1,
+    "crossSectionSupportSections": ["skills", "projects", "work_experience", "core_strengths"],
+    "crossSectionSupportMinRawScore": 0.56,
+    "crossSectionSupportMinRerankScore": 0.6,
+    "crossSectionSupportMinHintCount": 1,
+    "reserveMinRerankScore": 0.55
+  }
+}
