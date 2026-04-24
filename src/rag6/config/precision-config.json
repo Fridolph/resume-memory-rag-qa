@@ -1,0 +1,30 @@
+{
+  "experience": {
+    "primaryMinRerankScore": 0.66,
+    "supportMinRerankScore": 0.61,
+    "maxSupportWithoutTopicHit": 1,
+    "sectionBoostAttenuationWithoutTopicHit": 0.35,
+    "hardDropMinNoiseReasons": 4
+  },
+  "project": {
+    "primaryMinRerankScore": 0.65,
+    "supportMinRerankScore": 0.6,
+    "maxSupportWithoutTopicHit": 1,
+    "sectionBoostAttenuationWithoutTopicHit": 0.4,
+    "hardDropMinNoiseReasons": 4
+  },
+  "skill": {
+    "primaryMinRerankScore": 0.62,
+    "supportMinRerankScore": 0.58,
+    "maxSupportWithoutTopicHit": 2,
+    "sectionBoostAttenuationWithoutTopicHit": 1,
+    "hardDropMinNoiseReasons": 5
+  },
+  "general": {
+    "primaryMinRerankScore": 0.62,
+    "supportMinRerankScore": 0.58,
+    "maxSupportWithoutTopicHit": 2,
+    "sectionBoostAttenuationWithoutTopicHit": 0.7,
+    "hardDropMinNoiseReasons": 5
+  }
+}
