@@ -14,7 +14,8 @@
     "ask:v4": "node ./src/ask-resume-4-session-ask.mjs",
     "ask:v5": "node ./src/ask-resume-5-config-ask.mjs",
     "ask:v6": "node ./src/ask-resume-6-evidence-ask.mjs",
-    "ask:v7": "node ./src/ask-resume-7-progressive-ask.mjs"
+    "ask:v7": "node ./src/ask-resume-7-progressive-ask.mjs",
+    "ask:v7:dpv4": "node ./src/ask-resume-7-progressive-ask-dpv4.mjs"
   },
   "dependencies": {
     "@langchain/core": "^1.1.41",
