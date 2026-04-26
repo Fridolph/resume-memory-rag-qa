@@ -7,6 +7,9 @@
   "scripts": {
     "inspect": "node ./src/inspect-resume.mjs",
     "ingest": "node ./src/ingest-resume.mjs",
+    "milvus:up": "docker compose -f docker-compose.milvus.yml up -d",
+    "milvus:down": "docker compose -f docker-compose.milvus.yml down",
+    "milvus:logs": "docker compose -f docker-compose.milvus.yml logs -f standalone",
     "ask": "node ./src/ask-resume-7-progressive-ask.mjs",
     "ask:v1": "node ./src/ask-resume.mjs",
     "ask:v2": "node ./src/ask-resume-2-perf-ask.mjs",
